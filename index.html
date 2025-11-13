@@ -3,262 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JRS Creative Studio - Digital Marketing, Web Analytics, Web Development services to grow your business">
-    <meta name="keywords" content="digital marketing, web development, web analytics, SEO, social media management">
-    <title>JRS Creative Studio - Your Growth. Our Creativity.</title>
+    <title>JRS Creative Studio - Digital Marketing, Web Development & Analytics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <div class="logo-container">
-                    <img src="JRS.jpg" alt="JRS Creative Studio" class="logo-image">
+    <!-- Loading Animation -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-text">JRS</div>
+            <div class="loader-subtitle">CREATIVE STUDIO</div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/917090368314" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-text">JRS</div>
+                    <div class="logo-subtitle">CREATIVE STUDIO</div>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#services" class="nav-link">Services</a>
-                <a href="#portfolio" class="nav-link">Portfolio</a>
-                <a href="#pricing" class="nav-link">Pricing</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
-            <div class="floating-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-                <div class="shape shape-3"></div>
-                <div class="shape shape-4"></div>
-            </div>
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
         </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="title-line line-1">JRS Creative</span>
-                        <span class="title-line line-2">Studio</span>
-                    </h1>
-                    <p class="hero-tagline typing-animation">Your Growth. Our Creativity.</p>
-                    <p class="hero-subtitle fade-in-up">Digital Marketing • Web Development • Web Analytics</p>
-                    <p class="hero-description fade-in-up delay-1">Boost your brand, build your presence & grow your business with results-driven strategies.</p>
-                    <div class="hero-buttons fade-in-up delay-2">
-                        <a href="#contact" class="btn btn-primary pulse-animation">
-                            <span>Get Started</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#portfolio" class="btn btn-secondary">
-                            <span>View Our Work</span>
-                            <i class="fas fa-eye"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="floating-card card-1">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Marketing</span>
-                    </div>
-                    <div class="floating-card card-2">
-                        <i class="fas fa-code"></i>
-                        <span>Development</span>
-                    </div>
-                    <div class="floating-card card-3">
-                        <i class="fas fa-analytics"></i>
-                        <span>Analytics</span>
-                    </div>
-                </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="text-reveal">JRS Creative Studio</span>
+            </h1>
+            <p class="hero-tagline typing-animation">Your Growth. Our Creativity.</p>
+            <p class="hero-subtitle fade-in-up">Digital Marketing • Web Development • Web Analytics</p>
+            <p class="hero-description fade-in-up">Boost your brand, build your presence & grow your business with results-driven strategies.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary pulse">Get Started</a>
+                <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
             </div>
         </div>
         <div class="hero-scroll-indicator">
-            <div class="scroll-arrow">
-                <i class="fas fa-chevron-down"></i>
-            </div>
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
     <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
+    <section class="why-us">
         <div class="container">
             <h2 class="section-title">Why Choose Us</h2>
             <p class="section-subtitle">We turn ideas into digital success.</p>
             <p class="section-description">At JRS Creative Studio, we help businesses grow through powerful marketing, high-performing websites, and data-driven decisions.</p>
             
-            <div class="features-grid">
-                <div class="feature-card animate-on-scroll">
+            <div class="features">
+                <div class="feature">
                     <div class="feature-icon">
-                        <div class="icon-bg"></div>
                         <i class="fas fa-layer-group"></i>
                     </div>
                     <h3>Full-stack digital solutions</h3>
-                    <p>Complete digital services from strategy to execution</p>
+                    <p>End-to-end services from design to deployment</p>
                 </div>
-                
-                <div class="feature-card animate-on-scroll">
+                <div class="feature">
                     <div class="feature-icon">
-                        <div class="icon-bg"></div>
                         <i class="fas fa-users"></i>
                     </div>
                     <h3>Professional marketing team</h3>
-                    <p>Experienced specialists dedicated to your success</p>
+                    <p>Experts with years of industry experience</p>
                 </div>
-                
-                <div class="feature-card animate-on-scroll">
+                <div class="feature">
                     <div class="feature-icon">
-                        <div class="icon-bg"></div>
                         <i class="fas fa-indian-rupee-sign"></i>
                     </div>
                     <h3>Transparent pricing</h3>
-                    <p>Clear costs with no hidden fees or surprises</p>
+                    <p>No hidden costs, clear breakdowns</p>
                 </div>
-                
-                <div class="feature-card animate-on-scroll">
+                <div class="feature">
                     <div class="feature-icon">
-                        <div class="icon-bg"></div>
                         <i class="fas fa-palette"></i>
                     </div>
                     <h3>Creative, modern designs</h3>
-                    <p>Visually appealing solutions that convert visitors</p>
+                    <p>Visually stunning and user-friendly interfaces</p>
                 </div>
-                
-                <div class="feature-card animate-on-scroll">
+                <div class="feature">
                     <div class="feature-icon">
-                        <div class="icon-bg"></div>
                         <i class="fas fa-headset"></i>
                     </div>
                     <h3>24/7 dedicated support</h3>
-                    <p>Round-the-clock assistance when you need it</p>
+                    <p>Always available when you need us</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Core Services Section -->
-    <section id="services" class="core-services">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
             <h2 class="section-title">Our Core Services</h2>
             
             <div class="services-grid">
-                <div class="service-card animate-on-scroll">
+                <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="fas fa-bullhorn"></i>
                     </div>
                     <h3>Digital Marketing</h3>
                     <p>Grow your brand through strategic content, ads, SEO, and social media.</p>
-                    <a href="#services-details" class="service-link">
-                        <span>Learn More</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="service-highlights">
+                        <span>SEO</span>
+                        <span>Social Media</span>
+                        <span>Google Ads</span>
+                    </div>
+                    <a href="#digital-marketing" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
-                <div class="service-card animate-on-scroll">
+                <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-chart-bar"></i>
+                        <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Web Analytics</h3>
                     <p>Track your performance, measure results, and improve conversions.</p>
-                    <a href="#services-details" class="service-link">
-                        <span>Learn More</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="service-highlights">
+                        <span>GA4</span>
+                        <span>Looker Studio</span>
+                        <span>Heatmaps</span>
+                    </div>
+                    <a href="#web-analytics" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
-                <div class="service-card animate-on-scroll">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-code"></i>
                     </div>
                     <h3>Web Development</h3>
                     <p>Build stunning, fast, and modern websites designed to convert.</p>
-                    <a href="#services-details" class="service-link">
-                        <span>Learn More</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- What Makes Us Different Section -->
-    <section id="different" class="different-section">
-        <div class="container">
-            <h2 class="section-title">What Makes Us Different</h2>
-            <p class="section-subtitle">We're not just another digital agency</p>
-            
-            <div class="different-content">
-                <div class="different-text animate-on-scroll">
-                    <div class="different-item">
-                        <div class="different-icon">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                        <div class="different-details">
-                            <h3>Premium Tools & Technologies</h3>
-                            <p>We invest in the best tools and stay updated with the latest technologies to deliver superior results.</p>
-                        </div>
+                    <div class="service-highlights">
+                        <span>React</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
                     </div>
-                    
-                    <div class="different-item">
-                        <div class="different-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="different-details">
-                            <h3>ROI-Focused Approach</h3>
-                            <p>We prioritize measurable results over vanity metrics, ensuring every investment delivers real business value.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="different-item">
-                        <div class="different-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <div class="different-details">
-                            <h3>Fast & Professional Delivery</h3>
-                            <p>Quick turnaround times without compromising on quality or attention to detail.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="different-item">
-                        <div class="different-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <div class="different-details">
-                            <h3>Transparent Communication</h3>
-                            <p>Clear, honest communication and regular updates so you're always in the loop.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="different-visual animate-on-scroll">
-                    <div class="visual-card">
-                        <div class="card-content">
-                            <h4>Our Difference in Numbers</h4>
-                            <div class="stats">
-                                <div class="stat">
-                                    <div class="stat-number" data-count="98">0</div>
-                                    <div class="stat-label">Client Satisfaction</div>
-                                </div>
-                                <div class="stat">
-                                    <div class="stat-number" data-count="150">0</div>
-                                    <div class="stat-label">Projects Completed</div>
-                                </div>
-                                <div class="stat">
-                                    <div class="stat-number" data-count="24">0</div>
-                                    <div class="stat-label">Support Hours</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="#web-development" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -267,35 +173,57 @@
     <!-- Callout Section -->
     <section class="callout">
         <div class="container">
-            <div class="callout-content animate-on-scroll">
-                <h2>Ready to take your business to the next level?</h2>
-                <p>We help brands reach more customers, get more engagement, and generate real revenue.</p>
-                <a href="#contact" class="btn btn-primary">
-                    <span>Book a Free Consultation</span>
-                    <i class="fas fa-calendar-check"></i>
-                </a>
-            </div>
+            <h2>Ready to take your business to the next level?</h2>
+            <p>We help brands reach more customers, get more engagement, and generate real revenue.</p>
+            <a href="#contact" class="btn btn-primary pulse">Book a Free Consultation</a>
         </div>
     </section>
 
-    <!-- About Us Section -->
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">Who We Are</h2>
+            <h2 class="section-title">About Us</h2>
             <div class="about-content">
-                <div class="about-text animate-on-scroll">
-                    <p>JRS Creative Studio is a full-service digital agency offering digital marketing, web analytics, and web development solutions for businesses looking to grow in the online world.</p>
-                    <p>We combine creativity, data intelligence, and modern technology to deliver results that matter.</p>
+                <div class="about-text">
+                    <p>JRS Creative Studio is a full-service digital agency offering digital marketing, web analytics, and web development solutions for businesses looking to grow in the online world. We combine creativity, data intelligence, and modern technology to deliver results that matter.</p>
                     
                     <div class="mission-vision">
-                        <div class="mission animate-on-scroll">
-                            <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
-                            <p>To empower businesses with smart, scalable, and innovative digital solutions.</p>
+                        <div class="mv-item">
+                            <div class="mv-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div>
+                                <h3>Our Mission</h3>
+                                <p>To empower businesses with smart, scalable, and innovative digital solutions.</p>
+                            </div>
                         </div>
-                        
-                        <div class="vision animate-on-scroll">
-                            <h3><i class="fas fa-eye"></i> Our Vision</h3>
-                            <p>To become a trusted digital partner known for creativity, transparency, and measurable results.</p>
+                        <div class="mv-item">
+                            <div class="mv-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div>
+                                <h3>Our Vision</h3>
+                                <p>To become a trusted digital partner known for creativity, transparency, and measurable results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>What Makes Us Different</h3>
+                    <ul class="differentiators">
+                        <li><i class="fas fa-check"></i> We use premium tools & technologies</li>
+                        <li><i class="fas fa-check"></i> We focus on ROI, not vanity metrics</li>
+                        <li><i class="fas fa-check"></i> We deliver fast, professional results</li>
+                        <li><i class="fas fa-check"></i> We are transparent and easy to work with</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="animated-card">
+                        <div class="card-face card-front">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Digital Innovation</h4>
+                        </div>
+                        <div class="card-face card-back">
+                            <p>Transforming businesses through cutting-edge digital solutions</p>
                         </div>
                     </div>
                 </div>
@@ -303,24 +231,20 @@
         </div>
     </section>
 
-    <!-- Services Details Section -->
-    <section id="services-details" class="services-details">
+    <!-- Detailed Services Section -->
+    <section class="detailed-services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            
             <!-- Digital Marketing Services -->
-            <div class="service-category animate-on-scroll">
-                <div class="service-category-header">
-                    <div class="service-category-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Digital Marketing Services</h3>
+            <div id="digital-marketing" class="service-detail">
+                <div class="service-header">
+                    <i class="fas fa-bullhorn"></i>
+                    <h2>Digital Marketing Services</h2>
                 </div>
-                <p class="service-category-description">We help your brand grow through strategic social media management, content creation, SEO, and targeted ads.</p>
+                <p class="service-overview">We help your brand grow through strategic social media management, content creation, SEO, and targeted ads.</p>
                 
                 <div class="service-offerings">
                     <div class="offering">
-                        <h4><i class="fas fa-hashtag"></i> Social Media Management</h4>
+                        <h3><i class="fas fa-hashtag"></i> Social Media Management</h3>
                         <ul>
                             <li>Creative posts</li>
                             <li>Page management</li>
@@ -330,7 +254,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-search"></i> Search Engine Optimization (SEO)</h4>
+                        <h3><i class="fas fa-search"></i> Search Engine Optimization (SEO)</h3>
                         <ul>
                             <li>Keyword research</li>
                             <li>On-page SEO</li>
@@ -341,7 +265,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-ad"></i> Social Media Ads</h4>
+                        <h3><i class="fas fa-ad"></i> Social Media Ads</h3>
                         <ul>
                             <li>Facebook/Instagram Ads</li>
                             <li>LinkedIn Ads</li>
@@ -351,7 +275,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fab fa-google"></i> Google Ads (SEM)</h4>
+                        <h3><i class="fab fa-google"></i> Google Ads (SEM)</h3>
                         <ul>
                             <li>Search ads</li>
                             <li>Display ads</li>
@@ -361,7 +285,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-pen-fancy"></i> Content Creation</h4>
+                        <h3><i class="fas fa-pen-nib"></i> Content Creation</h3>
                         <ul>
                             <li>Graphic design</li>
                             <li>Short-form video</li>
@@ -371,34 +295,48 @@
                     </div>
                 </div>
                 
-                <div class="tools-used">
-                    <h4>Tools We Use</h4>
-                    <div class="tools-grid">
-                        <div class="tool"><i class="fab fa-facebook"></i> Meta Business Suite</div>
-                        <div class="tool"><i class="fab fa-google"></i> Google Ads</div>
-                        <div class="tool"><i class="fas fa-paint-brush"></i> Canva</div>
-                        <div class="tool"><i class="fas fa-share-alt"></i> Buffer</div>
-                        <div class="tool"><i class="fas fa-search"></i> SurferSEO</div>
-                        <div class="tool"><i class="fas fa-chart-line"></i> RankMath</div>
-                        <div class="tool"><i class="fas fa-envelope"></i> Mailchimp</div>
-                        <div class="tool"><i class="fas fa-trending-up"></i> Google Trends</div>
+                <div class="tools-section">
+                    <h3>Tools We Use</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <i class="fab fa-facebook"></i>
+                            <span>Meta Business Suite</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-google"></i>
+                            <span>Google Ads</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Canva</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Buffer</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-search"></i>
+                            <span>Google Search Console</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>OneTrust</span>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <!-- Web Analytics Services -->
-            <div class="service-category animate-on-scroll">
-                <div class="service-category-header">
-                    <div class="service-category-icon">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h3>Web Analytics Services</h3>
+            <div id="web-analytics" class="service-detail">
+                <div class="service-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Web Analytics Services</h2>
                 </div>
-                <p class="service-category-description">We set up complete analytics systems to track customers, measure performance, and improve conversions.</p>
+                <p class="service-overview">We set up complete analytics systems to track customers, measure performance, and improve conversions.</p>
                 
                 <div class="service-offerings">
                     <div class="offering">
-                        <h4><i class="fas fa-chart-pie"></i> Google Analytics 4 (GA4) Setup</h4>
+                        <h3><i class="fab fa-google"></i> Google Analytics 4 (GA4) Setup</h3>
                         <ul>
                             <li>Real-time tracking</li>
                             <li>User behavior insights</li>
@@ -407,7 +345,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-tags"></i> Google Tag Manager</h4>
+                        <h3><i class="fas fa-tags"></i> Google Tag Manager</h3>
                         <ul>
                             <li>Button clicks</li>
                             <li>Form submissions</li>
@@ -417,7 +355,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-search"></i> SEO Analytics</h4>
+                        <h3><i class="fas fa-search"></i> SEO Analytics</h3>
                         <ul>
                             <li>Keyword ranking</li>
                             <li>Traffic source breakdown</li>
@@ -426,7 +364,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-fire"></i> Heatmaps & User Behavior</h4>
+                        <h3><i class="fas fa-fire"></i> Heatmaps & User Behavior</h3>
                         <ul>
                             <li>Hotjar/Microsoft Clarity setup</li>
                             <li>Session recordings</li>
@@ -435,42 +373,58 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-exchange-alt"></i> Conversion Rate Optimization (CRO)</h4>
+                        <h3><i class="fas fa-chart-pie"></i> Looker Studio Dashboards</h3>
                         <ul>
-                            <li>Landing page audits</li>
-                            <li>A/B recommendations</li>
-                            <li>Full dashboard reporting</li>
+                            <li>Custom data visualization</li>
+                            <li>Automated reporting</li>
+                            <li>KPI tracking</li>
+                            <li>Client dashboards</li>
                         </ul>
                     </div>
                 </div>
                 
-                <div class="tools-used">
-                    <h4>Tools We Use</h4>
-                    <div class="tools-grid">
-                        <div class="tool"><i class="fab fa-google"></i> GA4</div>
-                        <div class="tool"><i class="fas fa-tag"></i> Google Tag Manager</div>
-                        <div class="tool"><i class="fas fa-search"></i> Google Search Console</div>
-                        <div class="tool"><i class="fas fa-ad"></i> Google Ads</div>
-                        <div class="tool"><i class="fas fa-chart-bar"></i> Looker Studio</div>
-                        <div class="tool"><i class="fas fa-shield-alt"></i> OneTrust</div>
-                        <div class="tool"><i class="fas fa-fire"></i> Hotjar</div>
+                <div class="tools-section">
+                    <h3>Tools We Use</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <i class="fab fa-google"></i>
+                            <span>GA4</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-search"></i>
+                            <span>Search Console</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-tags"></i>
+                            <span>Tag Manager</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-fire"></i>
+                            <span>Hotjar</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Looker Studio</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-link"></i>
+                            <span>UTM Manager</span>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <!-- Web Development Services -->
-            <div class="service-category animate-on-scroll">
-                <div class="service-category-header">
-                    <div class="service-category-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development Services</h3>
+            <div id="web-development" class="service-detail">
+                <div class="service-header">
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development Services</h2>
                 </div>
-                <p class="service-category-description">We build modern, high-performance websites that are fast, secure, and designed to convert visitors into customers.</p>
+                <p class="service-overview">We build modern, high-performance websites that are fast, secure, and designed to convert visitors into customers.</p>
                 
                 <div class="service-offerings">
                     <div class="offering">
-                        <h4><i class="fas fa-briefcase"></i> Business Websites</h4>
+                        <h3><i class="fas fa-briefcase"></i> Business Websites</h3>
                         <ul>
                             <li>Modern UI/UX</li>
                             <li>Responsive design</li>
@@ -480,7 +434,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-shopping-cart"></i> E-Commerce</h4>
+                        <h3><i class="fas fa-shopping-cart"></i> E-Commerce</h3>
                         <ul>
                             <li>Product pages</li>
                             <li>Checkout system</li>
@@ -490,7 +444,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-laptop-code"></i> Custom Web Applications</h4>
+                        <h3><i class="fas fa-laptop-code"></i> Custom Web Applications</h3>
                         <ul>
                             <li>React & Next.js apps</li>
                             <li>API integrations</li>
@@ -500,7 +454,7 @@
                     </div>
                     
                     <div class="offering">
-                        <h4><i class="fas fa-paint-roller"></i> Website Redesign</h4>
+                        <h3><i class="fas fa-paint-roller"></i> Website Redesign</h3>
                         <ul>
                             <li>Faster performance</li>
                             <li>Better layout</li>
@@ -510,17 +464,41 @@
                     </div>
                 </div>
                 
-                <div class="tools-used">
-                    <h4>Tech Stack</h4>
-                    <div class="tools-grid">
-                        <div class="tool"><i class="fab fa-html5"></i> HTML5</div>
-                        <div class="tool"><i class="fab fa-css3-alt"></i> CSS3</div>
-                        <div class="tool"><i class="fab fa-js"></i> JavaScript</div>
-                        <div class="tool"><i class="fab fa-react"></i> React</div>
-                        <div class="tool"><i class="fab fa-node-js"></i> Node.js</div>
-                        <div class="tool"><i class="fab fa-python"></i> Python</div>
-                        <div class="tool"><i class="fas fa-database"></i> MySQL</div>
-                        <div class="tool"><i class="fas fa-server"></i> MongoDB</div>
+                <div class="tools-section">
+                    <h3>Tech Stack</h3>
+                    <div class="tools">
+                        <div class="tool">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-bolt"></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="tool">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -541,9 +519,9 @@
                 <div class="category">Analytics dashboard setups</div>
             </div>
             
-            <div class="portfolio-coming-soon animate-on-scroll">
-                <div class="coming-soon-icon">
-                    <i class="fas fa-hourglass-half"></i>
+            <div class="portfolio-coming-soon">
+                <div class="coming-soon-animation">
+                    <i class="fas fa-tools"></i>
                 </div>
                 <h3>Portfolio Coming Soon</h3>
                 <p>We're working on amazing projects!</p>
@@ -554,36 +532,36 @@
     <!-- Pricing Section -->
     <section id="pricing" class="pricing">
         <div class="container">
-            <h2 class="section-title">Our Pricing</h2>
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-subtitle">Transparent pricing for all our services</p>
             
             <!-- Digital Marketing Pricing -->
-            <div class="pricing-category animate-on-scroll">
-                <h3>Digital Marketing Plans</h3>
+            <div class="pricing-category">
+                <h3><i class="fas fa-bullhorn"></i> Digital Marketing Prices</h3>
                 <div class="pricing-table">
                     <div class="pricing-plan">
                         <h4>Basic</h4>
                         <div class="price">₹8,000/mo</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> 8 posts</li>
-                            <li><i class="fas fa-check"></i> 1 platform</li>
-                            <li><i class="fas fa-check"></i> Basic SEO</li>
-                            <li><i class="fas fa-check"></i> GMB setup</li>
-                            <li><i class="fas fa-check"></i> Monthly report</li>
+                            <li>8 posts</li>
+                            <li>1 platform</li>
+                            <li>Basic SEO</li>
+                            <li>GMB setup</li>
+                            <li>Monthly report</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
                     
                     <div class="pricing-plan featured">
-                        <div class="popular-badge">Most Popular</div>
                         <h4>Advanced</h4>
                         <div class="price">₹15,000/mo</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> 16 posts</li>
-                            <li><i class="fas fa-check"></i> 2 platforms</li>
-                            <li><i class="fas fa-check"></i> SEO</li>
-                            <li><i class="fas fa-check"></i> GA4 setup</li>
-                            <li><i class="fas fa-check"></i> Ads support</li>
-                            <li><i class="fas fa-check"></i> Bi-weekly report</li>
+                            <li>16 posts</li>
+                            <li>2 platforms</li>
+                            <li>SEO</li>
+                            <li>GA4 setup</li>
+                            <li>Ads support</li>
+                            <li>Bi-weekly report</li>
                         </ul>
                         <a href="#contact" class="btn btn-primary">Get Started</a>
                     </div>
@@ -592,11 +570,11 @@
                         <h4>Next Level</h4>
                         <div class="price">₹30,000–₹60,000/mo</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> 25–30 posts</li>
-                            <li><i class="fas fa-check"></i> All platforms</li>
-                            <li><i class="fas fa-check"></i> SEO+SEM</li>
-                            <li><i class="fas fa-check"></i> Ads management</li>
-                            <li><i class="fas fa-check"></i> Weekly insights</li>
+                            <li>25–30 posts</li>
+                            <li>All platforms</li>
+                            <li>SEO+SEM</li>
+                            <li>Ads management</li>
+                            <li>Weekly insights</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
@@ -604,15 +582,16 @@
             </div>
             
             <!-- Web Analytics Pricing -->
-            <div class="pricing-category animate-on-scroll">
-                <h3>Web Analytics Plans</h3>
+            <div class="pricing-category">
+                <h3><i class="fas fa-chart-line"></i> Web Analytics Prices</h3>
                 <div class="pricing-table">
                     <div class="pricing-plan">
                         <h4>Basic</h4>
                         <div class="price">₹5,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> GA4, GSC</li>
-                            <li><i class="fas fa-check"></i> Basic events</li>
+                            <li>GA4</li>
+                            <li>GSC</li>
+                            <li>Basic events</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
@@ -621,10 +600,10 @@
                         <h4>Advanced</h4>
                         <div class="price">₹12,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> Full tracking</li>
-                            <li><i class="fas fa-check"></i> Funnels</li>
-                            <li><i class="fas fa-check"></i> UTMs</li>
-                            <li><i class="fas fa-check"></i> Heatmaps</li>
+                            <li>Full tracking</li>
+                            <li>Funnels</li>
+                            <li>UTMs</li>
+                            <li>Heatmaps</li>
                         </ul>
                         <a href="#contact" class="btn btn-primary">Get Started</a>
                     </div>
@@ -633,9 +612,9 @@
                         <h4>Next Level</h4>
                         <div class="price">₹20,000–₹35,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> Custom dashboards</li>
-                            <li><i class="fas fa-check"></i> CRO audit</li>
-                            <li><i class="fas fa-check"></i> Advanced events</li>
+                            <li>Custom dashboards</li>
+                            <li>CRO audit</li>
+                            <li>Advanced events</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
@@ -643,16 +622,16 @@
             </div>
             
             <!-- Web Development Pricing -->
-            <div class="pricing-category animate-on-scroll">
-                <h3>Web Development Plans</h3>
+            <div class="pricing-category">
+                <h3><i class="fas fa-code"></i> Web Development Prices</h3>
                 <div class="pricing-table">
                     <div class="pricing-plan">
                         <h4>Basic Website</h4>
                         <div class="price">₹10,000–₹18,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> 5 pages</li>
-                            <li><i class="fas fa-check"></i> SEO setup</li>
-                            <li><i class="fas fa-check"></i> Responsive design</li>
+                            <li>5 pages</li>
+                            <li>SEO setup</li>
+                            <li>Responsive design</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
@@ -661,9 +640,9 @@
                         <h4>Advanced Website</h4>
                         <div class="price">₹25,000–₹50,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> Custom React/Next.js</li>
-                            <li><i class="fas fa-check"></i> Admin panel</li>
-                            <li><i class="fas fa-check"></i> Blog CMS</li>
+                            <li>Custom React/Next.js</li>
+                            <li>Admin panel</li>
+                            <li>Blog CMS</li>
                         </ul>
                         <a href="#contact" class="btn btn-primary">Get Started</a>
                     </div>
@@ -672,14 +651,53 @@
                         <h4>Next Level Website</h4>
                         <div class="price">₹60,000–₹2,50,000</div>
                         <ul>
-                            <li><i class="fas fa-check"></i> Full-stack web app</li>
-                            <li><i class="fas fa-check"></i> E-commerce</li>
-                            <li><i class="fas fa-check"></i> AI assistant</li>
-                            <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            <li>Full-stack web app</li>
+                            <li>E-commerce</li>
+                            <li>AI assistant</li>
+                            <li>Advanced analytics</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline">Get Started</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Insights That Drive Growth</h2>
+            <p class="section-subtitle">Welcome to the JRS Creative Studio Blog—your hub for digital marketing, analytics, web development, and growth strategies.</p>
+            
+            <div class="blog-categories">
+                <div class="blog-category">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing Tips</h3>
+                </div>
+                <div class="blog-category">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Guides</h3>
+                </div>
+                <div class="blog-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development Tutorials</h3>
+                </div>
+                <div class="blog-category">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Case Studies</h3>
+                </div>
+                <div class="blog-category">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Business Growth Insights</h3>
+                </div>
+            </div>
+            
+            <div class="blog-coming-soon">
+                <div class="writing-animation">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <h3>Blog Content Coming Soon</h3>
+                <p>We're preparing valuable content to help your business grow!</p>
             </div>
         </div>
     </section>
@@ -691,85 +709,75 @@
             <p class="section-subtitle">We'd love to help your business grow.</p>
             
             <div class="contact-content">
-                <div class="contact-info animate-on-scroll">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
                             <h4>Location</h4>
                             <p>Bangalore, Karnataka</p>
                         </div>
                     </div>
-                    
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
+                        <i class="fas fa-phone"></i>
+                        <div>
                             <h4>Phone</h4>
-                            <p>+91 7090368314</p>
+                            <p>+91 —————</p>
                         </div>
                     </div>
-                    
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
+                        <i class="fas fa-envelope"></i>
+                        <div>
                             <h4>Email</h4>
-                            <p>jrscreativestudio2025@gmail.com</p>
+                            <p>jrscreativestudio@gmail.com</p>
                         </div>
                     </div>
-                    
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="contact-details">
+                        <i class="fas fa-globe"></i>
+                        <div>
                             <h4>Website</h4>
                             <p>www.jrscreativestudio.com</p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="contact-form animate-on-scroll">
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
                     <form id="contactForm">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" required>
                             <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
-                        
                         <div class="form-group">
-                            <input type="email" id="email" name="email" required>
                             <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
-                        
                         <div class="form-group">
-                            <input type="tel" id="phone" name="phone">
                             <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
                         </div>
-                        
                         <div class="form-group">
-                            <select id="service" name="service" required>
-                                <option value="" disabled selected></option>
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
                                 <option value="digital-marketing">Digital Marketing</option>
                                 <option value="web-analytics">Web Analytics</option>
                                 <option value="web-development">Web Development</option>
                                 <option value="other">Other</option>
                             </select>
-                            <label for="service">Service Required</label>
                         </div>
-                        
                         <div class="form-group">
-                            <textarea id="message" name="message" rows="5" required></textarea>
                             <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -782,7 +790,7 @@
             <h2 class="section-title">Frequently Asked Questions</h2>
             
             <div class="faq-list">
-                <div class="faq-item animate-on-scroll">
+                <div class="faq-item">
                     <div class="faq-question">
                         <h3>What services do you offer?</h3>
                         <i class="fas fa-chevron-down"></i>
@@ -792,7 +800,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item animate-on-scroll">
+                <div class="faq-item">
                     <div class="faq-question">
                         <h3>How long does a website take to build?</h3>
                         <i class="fas fa-chevron-down"></i>
@@ -802,7 +810,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item animate-on-scroll">
+                <div class="faq-item">
                     <div class="faq-question">
                         <h3>Do you manage social media monthly?</h3>
                         <i class="fas fa-chevron-down"></i>
@@ -812,7 +820,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item animate-on-scroll">
+                <div class="faq-item">
                     <div class="faq-question">
                         <h3>Can you run ads for our business?</h3>
                         <i class="fas fa-chevron-down"></i>
@@ -822,7 +830,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item animate-on-scroll">
+                <div class="faq-item">
                     <div class="faq-question">
                         <h3>Do you provide reports?</h3>
                         <i class="fas fa-chevron-down"></i>
@@ -836,44 +844,46 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <img src="JRS.jpg" alt="JRS Creative Studio" class="logo-image">
-                        <h3>JRS Creative Studio</h3>
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-text">JRS</div>
+                        <div class="logo-subtitle">CREATIVE STUDIO</div>
                     </div>
-                    <p>Your Brand, Our Creativity.</p>
+                    <p class="footer-tagline">Your Brand, Our Creativity.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/919876543210" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 
-                <div class="footer-links">
-                    <h4>Services</h4>
+                <div class="footer-section">
+                    <h3>Services</h3>
                     <ul>
-                        <li><a href="#services">Digital Marketing</a></li>
-                        <li><a href="#services">Web Development</a></li>
-                        <li><a href="#services">Web Analytics</a></li>
+                        <li><a href="#digital-marketing">Digital Marketing</a></li>
+                        <li><a href="#web-analytics">Web Analytics</a></li>
+                        <li><a href="#web-development">Web Development</a></li>
                     </ul>
                 </div>
                 
-                <div class="footer-links">
-                    <h4>Company</h4>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#different">What Makes Us Different</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 
-                <div class="footer-links">
-                    <h4>Legal</h4>
+                <div class="footer-section">
+                    <h3>Legal</h3>
                     <ul>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms of Service</a></li>
@@ -882,8 +892,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 JRS Creative Studio. All rights reserved.</p>
-                <p>Digital Marketing • Web Development • Analytics</p>
+                <p>&copy; 2025 JRS Creative Studio. Digital Marketing • Web Development • Analytics</p>
             </div>
         </div>
     </footer>
