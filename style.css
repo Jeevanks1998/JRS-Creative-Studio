@@ -174,7 +174,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .nav-logo {
@@ -185,7 +185,7 @@ section {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0;
 }
 
 .logo-image {
@@ -197,12 +197,6 @@ section {
 
 .logo-image:hover {
     transform: scale(1.05);
-}
-
-.nav-logo span {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
 }
 
 .nav-menu {
@@ -1875,6 +1869,23 @@ section {
         grid-template-columns: 1fr;
         gap: 40px;
     }
+    
+    .service-category {
+        padding: 40px 25px;
+    }
+    
+    .contact-form {
+        padding: 30px 25px;
+    }
+    
+    .portfolio-categories {
+        gap: 10px;
+    }
+    
+    .category {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1916,19 +1927,102 @@ section {
     }
     
     .service-category {
-        padding: 40px 25px;
+        padding: 30px 20px;
     }
     
     .contact-form {
-        padding: 30px 25px;
+        padding: 25px 20px;
     }
     
     .portfolio-categories {
-        gap: 10px;
+        gap: 8px;
     }
     
     .category {
-        padding: 10px 20px;
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+    
+    .logo-image {
+        height: 40px;
+    }
+    
+    .nav-container {
+        padding: 12px 0;
+    }
+    
+    .hero-visual {
+        height: 250px;
+    }
+    
+    .floating-card {
+        padding: 15px;
+    }
+    
+    .floating-card i {
+        font-size: 1.5rem;
+    }
+    
+    .floating-card span {
         font-size: 0.9rem;
+    }
+}
+
+/* Additional Mobile Optimizations */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    .section-description {
+        font-size: 1rem;
+    }
+    
+    .service-category h3 {
+        font-size: 1.8rem;
+    }
+    
+    .service-category-description {
+        font-size: 1.1rem;
+    }
+    
+    .pricing-category h3 {
+        font-size: 1.8rem;
+    }
+    
+    .pricing-plan {
+        padding: 40px 30px;
+    }
+    
+    .price {
+        font-size: 2.5rem;
+    }
+    
+    .footer-content {
+        gap: 30px;
+    }
+    
+    .footer-logo h3 {
+        font-size: 1.5rem;
     }
 }
