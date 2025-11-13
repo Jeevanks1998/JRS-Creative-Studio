@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             navbar.style.background = 'rgba(255, 255, 255, 0.95)';
             navbar.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
-            navbar.style.padding = '20px 0';
+            navbar.style.padding = '15px 0';
         }
     });
     
@@ -324,6 +324,24 @@ document.addEventListener('DOMContentLoaded', function() {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(67, 97, 238, 0.4);
         }
+        
+        @media (max-width: 768px) {
+            .scroll-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .scroll-to-top {
+                bottom: 15px;
+                right: 15px;
+                width: 40px;
+                height: 40px;
+            }
+        }
     `;
     document.head.appendChild(style);
     
@@ -368,4 +386,4 @@ function initializeAnimations() {
     document.querySelectorAll('.animate-on-scroll').forEach(el => {
         observer.observe(el);
     });
-} 
+}
