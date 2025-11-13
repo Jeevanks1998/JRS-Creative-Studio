@@ -189,7 +189,7 @@ section {
 }
 
 .logo-image {
-    height: 55px;
+    height: 45px;
     width: auto;
     border-radius: 8px;
     transition: var(--transition);
@@ -1533,7 +1533,7 @@ section {
 }
 
 .footer-logo .logo-image {
-    height: 60px;
+    height: 50px;
     width: auto;
     border-radius: 8px;
 }
@@ -1875,14 +1875,6 @@ section {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
-    .logo-image {
-        height: 45px;
-    }
-    
-    .footer-logo .logo-image {
-        height: 50px;
-    }
 }
 
 @media (max-width: 576px) {
@@ -1938,13 +1930,5 @@ section {
     .category {
         padding: 10px 20px;
         font-size: 0.9rem;
-    }
-    
-    .logo-image {
-        height: 40px;
-    }
-    
-    .footer-logo .logo-image {
-        height: 45px;
     }
 }
